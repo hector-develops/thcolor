@@ -47,10 +47,10 @@
     <?php
       include "modulos/encabezado.php";
 
-
+      include "modulos/home.php";
       if(isset($_GET["ruta"])){
 
-        if($_GET["ruta"]== "home" ||
+        if($_GET["ruta"]== "productos-servicios" ||
            $_GET["ruta"]== "productos-servicios" ||
            $_GET["ruta"]== "producto-servicio" ||
            $_GET["ruta"]== "contactanos"){
