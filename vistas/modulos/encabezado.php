@@ -38,7 +38,7 @@ for ($i = 0; $i < count($empresa); $i++) {
 							</ul>
 							<ul class="navbar_user">
 								<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+								<li><a href="http://www.thecolortintaytoner.com:8081/ingreso"><i class="fa fa-user" aria-hidden="true"></i></a></li>
 								<li class="checkout">
 									<a href="#">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>

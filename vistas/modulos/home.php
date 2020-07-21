@@ -21,7 +21,7 @@
 				<li class="menu_item"><a href="#prods-servs">Productos</a></li>
         <li class="menu_item"><a href="#moreVendidos">Mas vendidos</a></li>
         <li class="menu_item"><a href="#">Sucursales</a></li>
-				<li class="menu_item"><a href="#">Login</a></li>
+				<li class="menu_item"><a href="http://www.thecolortintaytoner.com:8081/ingreso">Login</a></li>
 				<li class="menu_item"><a href="contactanos">contacto</a></li>
 			</ul>
 		</div>
@@ -71,7 +71,7 @@
 
           $item = null;
           $valor = null;
-          $value1="http://localhost/backend/";
+          $value1="http://www.thecolortintaytoner.com:8081/";
           $productos = ProductosInicio::ctrMostrarProductos($item, $valor);
 
           foreach ($productos as $key => $value){
