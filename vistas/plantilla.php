@@ -47,12 +47,17 @@
     <?php
       include "modulos/encabezado.php";
 
+<<<<<<< HEAD
      if(empty($_GET["ruta"])){
 	
  	include "modulos/home.php"; 	
 	}elseif(isset($_GET["ruta"])){
+=======
+      include "modulos/home.php";
+      if(isset($_GET["ruta"])){
+>>>>>>> f4e83419c9158d62e0b376e5dc759011651fb155
 
-        if($_GET["ruta"]== "home" ||
+        if($_GET["ruta"]== "productos-servicios" ||
            $_GET["ruta"]== "productos-servicios" ||
            $_GET["ruta"]== "producto-servicio" ||
            $_GET["ruta"]== "contactanos"){
